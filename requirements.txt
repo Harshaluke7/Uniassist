@@ -1,0 +1,11 @@
+streamlit>=1.50
+joblib
+scikit-learn
+sentence-transformers>=3.0
+google-genai>=1.0
+ultralytics>=8.3
+pandas>=2.0
+plotly>=5.20
+pillow>=10.0
+numpy
+python-dotenv

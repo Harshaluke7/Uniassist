@@ -1,0 +1,1135 @@
+{
+    "intents": [
+        {
+            "intent": "greeting",
+            "text": [
+                "Hi",
+                "How are you?",
+                "Is anyone there?",
+                "Hello",
+                "Good day",
+                "What's up",
+                "how are ya",
+                "heyy",
+                "whatsup"
+            ],
+            "responses": [
+                "Hello! Welcome to Manav Rachna University Helpdesk. How can I help you today?",
+                "Hi there! I'm UniAssist, your MRU helpdesk assistant. What can I help you with?",
+                "Good to see you! Ask me anything about Manav Rachna University."
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "GreetingUserRequest",
+                "clear": false
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "goodbye",
+            "text": [
+                "cya",
+                "see you",
+                "bye bye",
+                "See you later",
+                "Goodbye",
+                "I am Leaving",
+                "Bye",
+                "Have a Good day",
+                "talk to you later",
+                "ttyl",
+                "i got to go",
+                "gtg"
+            ],
+            "responses": [
+                "Goodbye! Have a great day at MRU!"
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "LeavingUserRequest",
+                "clear": false
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "creator",
+            "text": [
+                "what is the name of your developers",
+                "what is the name of your creators",
+                "who created you",
+                "your developers",
+                "who are your developers",
+                "who made you",
+                "who designed you"
+            ],
+            "responses": [
+                "I was built by students of Manav Rachna University as part of an AI project."
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "AskingCreator",
+                "clear": true
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "name",
+            "text": [
+                "your name",
+                "what is your name",
+                "who are you",
+                "what are you called",
+                "what should I call you",
+                "who am i talking to",
+                "what am i chatting to"
+            ],
+            "responses": [
+                "I'm UniAssist \u2014 the AI-powered helpdesk assistant for Manav Rachna University!"
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "AskingMyName",
+                "clear": true
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "hours",
+            "text": [
+                "timing of college",
+                "what is college timing",
+                "working days",
+                "when are you guys open",
+                "what are your hours",
+                "when is the college open",
+                "college timing",
+                "is college open on saturday",
+                "what is my college time",
+                "when should i come to college",
+                "college hours"
+            ],
+            "responses": [
+                "Manav Rachna University is open Monday to Saturday, 8:00 AM to 4:30 PM."
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "CollegeTimings",
+                "clear": true
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "course",
+            "text": [
+                "list of courses",
+                "courses offered",
+                "what are the courses",
+                "branches available",
+                "what courses does MRU offer",
+                "computer engineering",
+                "IT",
+                "Information Technology",
+                "AI/ML",
+                "Mechanical engineering",
+                "Chemical engineering",
+                "Civil engineering",
+                "courses available",
+                "what can I study"
+            ],
+            "responses": [
+                "Explore courses: https://www.shiksha.com/university/manav-rachna-university-faridabad-42658/courses. To know more, visit the Academic Office in H Block, Ground Floor."
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "AskingCourses",
+                "clear": true
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "fees",
+            "text": [
+                "information about fee",
+                "college fee",
+                "fee per semester",
+                "what is the fee",
+                "how much is the fees",
+                "fees for first year",
+                "fees",
+                "about the fees",
+                "hostel fees",
+                "fees for AC room",
+                "fees for non-AC room",
+                "what is the fee structure",
+                "tuition fee"
+            ],
+            "responses": [
+                "Fee details: https://manavrachna.edu.in/mriirs/admissions/fee-structure. For more details or fee-related issues, visit the Accounts Office at I Block, 1st Floor (contact: Sunitha ma'am)."
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "FeeStructure",
+                "clear": true
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "location",
+            "text": [
+                "where is the college located",
+                "college is located at",
+                "where is college",
+                "address of college",
+                "how to reach college",
+                "college location",
+                "college address",
+                "how can I reach college",
+                "what is the address of college",
+                "address",
+                "location",
+                "where is MRU"
+            ],
+            "responses": [
+                "Manav Rachna University is located at Sector 43, Surajkund Road, Faridabad, Haryana. Find us on Google Maps: https://www.google.com/maps/search/manav+rachna+university+location/@28.4512637,77.2837292,16.27z"
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "AddressOfCollege",
+                "clear": true
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "hostel",
+            "text": [
+                "hostel facility",
+                "hostel facilities",
+                "hostel fees",
+                "Does college provide hostel",
+                "Is there any hostel",
+                "Where is hostel",
+                "do you have hostel",
+                "hostel capacity",
+                "how to get in hostel",
+                "hostel booking",
+                "hostel shifting",
+                "hostel security fees",
+                "hostel related",
+                "distance between college and hostel"
+            ],
+            "responses": [
+                "Hostel info: https://manavrachna.edu.in/mru/admissions/hostel-facility\nFor hostel bookings, shifting, fees, or any hostel-related queries, visit:\nHostel Office \u2014 C Block, Ground Floor\nAccounts: Sanjay Satija\nHead: Shobha Srivastava"
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "HostelRelatedQueries",
+                "clear": true
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "event",
+            "text": [
+                "events organised",
+                "list of events",
+                "events in college",
+                "what events are conducted",
+                "any events",
+                "functions",
+                "what are the events",
+                "tell me about events"
+            ],
+            "responses": [
+                "For event details visit: https://manavrachna.edu.in/mru/placements/event-calendar"
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "EventRelatedQueries",
+                "clear": true
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "document",
+            "text": [
+                "documents needed for admission",
+                "documents required for admission",
+                "what documents do i need",
+                "which documents to bring",
+                "documents for admission",
+                "documents needed"
+            ],
+            "responses": [
+                "For documents required at admission, visit: https://manavrachna.edu.in/assets/campus/mru/pdf/MRU_brochure.pdf. You can also visit the Admissions Office at E Block, Ground Floor for guidance."
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "DocumentsForAdmission",
+                "clear": true
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "timetable",
+            "text": [
+                "time table",
+                "class timetable",
+                "lecture schedule",
+                "what is the timetable",
+                "timetable for CSE",
+                "timetable for IT"
+            ],
+            "responses": [
+                "For your class timetable, please contact your Class CR or Faculty Mentor. You can also check the ERP portal: https://mrei.icloudems.com/corecampus/index.php"
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "TimetableQueries",
+                "clear": true
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "library",
+            "text": [
+                "is there any library",
+                "library facility",
+                "do you have library",
+                "college library",
+                "where can i get books",
+                "Library",
+                "Library information",
+                "tell me about library",
+                "how many libraries",
+                "vivekananda library",
+                "central library"
+            ],
+            "responses": [
+                "MRU has two libraries:\n1. Vivekananda Library \u2014 L Block, Underground Floor\n2. Central Library \u2014 T Block, Underground Floor\nFor more info: https://manavrachna.edu.in/mru/life/library"
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "LibraryHours",
+                "clear": true
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "infrastructure",
+            "text": [
+                "how is college infrastructure",
+                "infrastructure",
+                "college infrastructure",
+                "campus facilities",
+                "college campus"
+            ],
+            "responses": [
+                "Infrastructure details: https://www.shiksha.com/university/manav-rachna-university-faridabad-42658/infrastructure"
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "Infra",
+                "clear": true
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "canteen",
+            "text": [
+                "food facilities",
+                "canteen facilities",
+                "canteen facility",
+                "is there any canteen",
+                "cafeteria in college",
+                "does college have canteen",
+                "where is canteen",
+                "where is cafeteria",
+                "canteen",
+                "food",
+                "cafeteria"
+            ],
+            "responses": [
+                "Manav Rachna University has a canteen available on campus with a variety of food options for students."
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "Canteen",
+                "clear": true
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "placement",
+            "text": [
+                "college placement",
+                "which companies visit",
+                "average package",
+                "about placement",
+                "placement",
+                "recruitment",
+                "companies",
+                "placement cell",
+                "campus placement",
+                "job placement"
+            ],
+            "responses": [
+                "Placement info: https://www.shiksha.com/university/manav-rachna-university-faridabad-42658/placement. For placement-related queries, contact:\nPlacement Cell \u2014 L Block, Ground Floor, Staff Room\nContact: Mamta Arora"
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "Placements",
+                "clear": true
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "exam",
+            "text": [
+                "exam dates",
+                "exam schedule",
+                "when is semester exam",
+                "semester exam timetable",
+                "semester",
+                "exam",
+                "when is exam",
+                "exam timetable",
+                "when is semester",
+                "hall ticket",
+                "admit card",
+                "examination schedule"
+            ],
+            "responses": [
+                "For exam schedules, hall tickets, and academic calendar: https://manavrachna.edu.in/mru/academics/academic-calendar. For exam-related issues (attendance, hall ticket, schedules), visit the Administration Cell at H Block, Ground Floor."
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "AcademicCalendar",
+                "clear": true
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "admission",
+            "text": [
+                "what is the process of admission",
+                "how to take admission",
+                "what is the admission process",
+                "admission",
+                "admission process",
+                "how to apply",
+                "apply for admission",
+                "admission fees",
+                "admission booking",
+                "new admission"
+            ],
+            "responses": [
+                "Apply here: https://apply.manavrachna.edu.in/mru. For all admission-related queries, fees, and bookings, visit the Admissions Office at E Block, Ground Floor."
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "ProcessOfAdmission",
+                "clear": true
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "scholarship",
+            "text": [
+                "scholarship",
+                "is scholarship available",
+                "scholarship engineering",
+                "available scholarships",
+                "scholarship for computer engineering",
+                "list of scholarship",
+                "first year scholarship",
+                "merit scholarship",
+                "financial aid",
+                "scholarship criteria"
+            ],
+            "responses": [
+                "Scholarships at MRU: https://www.shiksha.com/university/manav-rachna-university-faridabad-42658/scholarships"
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "ScholarshipCriteria",
+                "clear": true
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "facilities",
+            "text": [
+                "what facilities college provide",
+                "college facility",
+                "what are college facilities",
+                "facilities",
+                "facilities provided"
+            ],
+            "responses": [
+                "Manav Rachna University provides: fully AC labs with internet, smart classrooms, auditorium, Vivekananda Library (L Block), Central Library (T Block), canteen, sports arena (near Dental Block), and hostel facilities."
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "Facilities",
+                "clear": true
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "uniform",
+            "text": [
+                "college dress code",
+                "college dresscode",
+                "what is the uniform",
+                "can we wear casuals",
+                "is there any uniform",
+                "uniform",
+                "do we have to wear uniform"
+            ],
+            "responses": [
+                "There is no specific uniform for engineering students at MRU. However, dental students have a uniform based on their year of study."
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "UniformCollegeDressCode",
+                "clear": true
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "random",
+            "text": [
+                "I love you",
+                "Will you marry me",
+                "Do you love me"
+            ],
+            "responses": [
+                "I'm here to help with university queries! Please ask me something about MRU. \ud83d\ude0a"
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "Inappropriate",
+                "clear": true
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "swear",
+            "text": [
+                "fuck",
+                "bitch",
+                "shut up",
+                "hell",
+                "stupid",
+                "idiot",
+                "dumb ass",
+                "asshole",
+                "fucker"
+            ],
+            "responses": [
+                "Please use appropriate language. I'm here to help! \ud83d\ude0a",
+                "Maintaining decency is appreciated. How can I assist you?"
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "InappropriateSwearWords",
+                "clear": true
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "vacation",
+            "text": [
+                "holidays",
+                "when will semester start",
+                "when will semester end",
+                "list of holidays",
+                "holiday list",
+                "about vacations",
+                "when is vacation",
+                "how long is the vacation"
+            ],
+            "responses": [
+                "For the holiday list and semester schedule, check the Academic Calendar: https://manavrachna.edu.in/mru/academics/academic-calendar. Your Faculty Mentor can also provide details."
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "AcademicCalendar",
+                "clear": true
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "sports",
+            "text": [
+                "sports and games",
+                "sports facilities",
+                "sports infrastructure",
+                "information about sports",
+                "sports activities",
+                "sports arena",
+                "where is sports",
+                "gym",
+                "playground",
+                "badminton",
+                "boxing",
+                "table tennis",
+                "shooting range",
+                "8 ball pool",
+                "pool table",
+                "shooting"
+            ],
+            "responses": [
+                "MRU Sports Arena is located at the Dental Block, Underground Floor.\nFacilities include: \ud83c\udff8 Badminton, \ud83e\udd4a Boxing, \ud83c\udfd3 Table Tennis, \ud83c\udfaf Shooting Range, \ud83c\udfb1 8 Ball Pool.\nFor more info: https://manavrachna.edu.in/mru/life/sports"
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "Sports",
+                "clear": true
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "salutation",
+            "text": [
+                "okk",
+                "okie",
+                "nice work",
+                "well done",
+                "good job",
+                "thanks for the help",
+                "Thank You",
+                "its ok",
+                "Thanks",
+                "Good work",
+                "k",
+                "ok",
+                "okay"
+            ],
+            "responses": [
+                "Glad I could help! Let me know if you need anything else. \ud83d\ude0a",
+                "You're welcome! Feel free to ask anytime."
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "Salutation",
+                "clear": true
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "task",
+            "text": [
+                "what can you do",
+                "what are the things you can do",
+                "how can you help me",
+                "why should i use you",
+                "what do you know"
+            ],
+            "responses": [
+                "I can help you with anything related to Manav Rachna University \u2014 admissions, fees, courses, HODs, exam schedules, hostel, placements, ERP, libraries, and more!"
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "Task",
+                "clear": true
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "ragging",
+            "text": [
+                "ragging",
+                "is ragging active in college",
+                "antiragging facility",
+                "ragging cases",
+                "is ragging done here",
+                "ragging policy",
+                "anti ragging",
+                "ragging helpline"
+            ],
+            "responses": [
+                "MRU maintains a strict zero-tolerance policy against ragging. For the official Anti-Ragging policy and helpline: https://manavrachna.edu.in/assets/campus/mru/pdf/Ant_Ragging_MRU.pdf"
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "Ragging",
+                "clear": true
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "id_card_issue",
+            "text": [
+                "ID card issues",
+                "lost id card",
+                "id card not working",
+                "need new id card",
+                "id card reissue",
+                "student id card"
+            ],
+            "responses": [
+                "For ID card issues or reissue, visit:\nI Block, Ground Floor\nPlease carry a written application for reissue requests."
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "id_card_issue",
+                "clear": true
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "missed_course_registration",
+            "text": [
+                "missed course registration",
+                "course registration issue",
+                "how to register for courses",
+                "late course registration",
+                "course registration deadline",
+                "register office",
+                "registrar office"
+            ],
+            "responses": [
+                "For course registration issues or late registration requests, visit:\nRegistrar Office \u2014 H Block, Ground Floor"
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "missed_course_registration",
+                "clear": true
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "erp_issue",
+            "text": [
+                "erp issue",
+                "erp login",
+                "erp not working",
+                "icloud ems",
+                "student portal",
+                "how to access erp",
+                "erp portal",
+                "icloudEMS",
+                "erp app",
+                "student erp"
+            ],
+            "responses": [
+                "ERP Portal: https://mrei.icloudems.com/corecampus/index.php\nYou can also download the icloudEMSV2 app from the Play Store or App Store.\nFor ERP login issues, contact IT Support at H Block, Ground Floor."
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "erp_issue",
+                "clear": true
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "fees_issue",
+            "text": [
+                "fees issue",
+                "fee payment problem",
+                "fee not updated",
+                "education loan",
+                "loan for fees",
+                "financial issue",
+                "fee receipt",
+                "fee related query",
+                "sunitha mam",
+                "academic finance",
+                "fees finance"
+            ],
+            "responses": [
+                "For fee payment, academic finance, or loan-related queries, visit:\nAccounts Office \u2014 I Block, Ground Floor\nContact: Sunitha ma'am"
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "fees_issue",
+                "clear": true
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "attendance_issue",
+            "text": [
+                "attendance issue",
+                "attendance not updated",
+                "attendance problem",
+                "hall ticket issue",
+                "admit card not generated",
+                "examination issue",
+                "exam schedule issue",
+                "administration cell",
+                "attendance backend",
+                "attendance short"
+            ],
+            "responses": [
+                "For attendance, hall ticket, exam schedule, or administration-related issues, visit:\nAdministration Cell \u2014 H Block, Ground Floor"
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "attendance_issue",
+                "clear": true
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "lost_item",
+            "text": [
+                "lost item",
+                "lost my bag",
+                "found something",
+                "lost and found",
+                "lost phone",
+                "lost wallet"
+            ],
+            "responses": [
+                "For lost and found items, contact the Security Office at the Main Gate."
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "lost_item",
+                "clear": true
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "dean_academics",
+            "text": [
+                "dean academics",
+                "who is dean",
+                "dean office",
+                "dipali bansal",
+                "dean of academics",
+                "meet the dean"
+            ],
+            "responses": [
+                "Dean of Academics: Dr. Dipali Bansal\nOffice: LG \u2014 Dean's Office\nFor academic grievances or escalations, you may visit the Dean's Office."
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "DeanAcademics",
+                "clear": true
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "computer_science_engineering_cse",
+            "text": [
+                "hod cse",
+                "cse head",
+                "computer science hod",
+                "cse department",
+                "who is hod of cse",
+                "vivek sir"
+            ],
+            "responses": [
+                "Department of Computer Science Engineering (CSE):\nHOD: Prof. Vivek\nLocation: LT05, L Block, 3rd Floor, Room 5\nEmail: hod.cse@mru.edu.in\nFor appointments, visit during college hours (8:00 AM \u2013 4:30 PM)."
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "CSE_HOD",
+                "clear": true
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "information_technology_it",
+            "text": [
+                "hod it",
+                "it head",
+                "information technology hod",
+                "it department"
+            ],
+            "responses": [
+                "For IT department HOD details, please visit H Block or contact the Register Office at H Block, Ground Floor."
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "IT_HOD",
+                "clear": true
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "placement_contact",
+            "text": [
+                "placement contact",
+                "who handles placement",
+                "mamta arora",
+                "placement officer",
+                "tpo",
+                "training and placement"
+            ],
+            "responses": [
+                "Placement Cell Contact:\nName: Mamta Arora\nLocation: L Block, Ground Floor, Staff Room\nFor campus placement queries, visit during college hours."
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "PlacementContact",
+                "clear": true
+            },
+            "entityType": "NA",
+            "entities": []
+        },
+        {
+            "intent": "medical_facilities",
+            "text": [
+                "medical facilities",
+                "is there a doctor",
+                "medical room",
+                "first aid",
+                "health center",
+                "sick room",
+                "dispensary",
+                "medical help",
+                "where is medical room",
+                "dental block medical",
+                "health facility",
+                "college doctor",
+                "medical emergency"
+            ],
+            "responses": [
+                "Medical facilities are available at the Dental Block, Ground Floor. Visit during college hours (8:00 AM \u2013 4:30 PM) for assistance."
+            ],
+            "extension": {
+                "function": "",
+                "entities": false,
+                "responses": []
+            },
+            "context": {
+                "in": "",
+                "out": "MedicalFacilities",
+                "clear": true
+            },
+            "entityType": "NA",
+            "entities": []
+        }
+    ]
+}
